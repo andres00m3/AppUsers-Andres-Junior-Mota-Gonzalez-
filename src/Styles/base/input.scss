@@ -1,0 +1,17 @@
+.app-input {
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid $primary;
+    height: 36px;
+    line-height: 18px;
+    padding: 0.15px;
+    outline: none;
+    &:focus {
+        border: 1px solid $primary-dark;
+        &disable {
+            background: $primary;
+            border: 1px solid rgba(0, 0, 0, .15);
+            color: $on-primary
+        }
+    }
+}

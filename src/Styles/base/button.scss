@@ -1,0 +1,7 @@
+.app-button {
+    &:hover,
+    &:focus {
+        background: $primary;
+        color: $on-primary
+    }
+}
